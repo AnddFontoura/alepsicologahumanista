@@ -1,0 +1,66 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+      args:
+        USER_ID: ${UID:-1000}
+        GROUP_ID: ${GID:-1000}
+    container_name: fontoura_periodicos_hostinger
+    volumes:
+      - ./:/var/www
+    working_dir: /var/www
+    depends_on:
+      - db
+    networks:
+      - intra_network
+    ports:
+      - "8122:8122"
+
+  web:
+    image: nginx:latest
+    container_name: fontoura_periodicos_hostinger_nginx
+    ports:
+      - "8082:80"
+    volumes:
+      - ./:/var/www
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - app
+    networks:
+      - intra_network
+
+  db:
+    image: mysql:8.0
+    container_name: ale_psicologa_humanista_db
+    environment:
+      MYSQL_DATABASE: ale_psicologa_humanista
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: laravel
+      MYSQL_PASSWORD: laravel
+    ports:
+      - "3312:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - intra_network
+
+  frontend:
+      image: node:20
+      container_name: fontoura_periodicos_hostinger_frontend
+      working_dir: /var/www
+      volumes:
+          - ./:/var/www
+      command: sh -c "npm install && npm run dev"
+      ports:
+          - "5175:5175" # porta padrão do Vite
+      networks:
+          - intra_network
+      depends_on:
+          - app
+volumes:
+  db_data:
+
+networks:
+  intra_network:
+    driver: bridge
