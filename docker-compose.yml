@@ -6,7 +6,7 @@ services:
       args:
         USER_ID: ${UID:-1000}
         GROUP_ID: ${GID:-1000}
-    container_name: fontoura_periodicos_hostinger
+    container_name: ale_psicologa_humanista
     volumes:
       - ./:/var/www
     working_dir: /var/www
@@ -19,7 +19,7 @@ services:
 
   web:
     image: nginx:latest
-    container_name: fontoura_periodicos_hostinger_nginx
+    container_name: ale_psicologa_humanista_nginx
     ports:
       - "8082:80"
     volumes:
@@ -47,7 +47,7 @@ services:
 
   frontend:
       image: node:20
-      container_name: fontoura_periodicos_hostinger_frontend
+      container_name: ale_psicologa_humanista_frontend
       working_dir: /var/www
       volumes:
           - ./:/var/www
