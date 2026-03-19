@@ -2,7 +2,7 @@
 import { Head } from '@inertiajs/vue3'
 
 const whatsappLink =
-    "https://wa.me/5541999999999?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta"
+    "https://wa.me/5519998845678?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta"
 </script>
 
 <template>
