@@ -11,14 +11,14 @@ const whatsappLink =
   <div class="bg-sky-50 text-slate-800">
     <!-- HERO -->
     <section class="bg-gradient-to-br from-sky-100 via-sky-50 to-rose-100 py-20">
-      <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-[2fr_1fr] gap-12 items-center">
         <div>
           <p class="inline-flex items-center rounded-full bg-white/80 px-4 py-2 text-sm font-medium text-sky-700 shadow-sm">
             Psicologia com acolhimento, escuta e presença
           </p>
 
           <h1 class="mt-6 text-4xl md:text-5xl font-bold leading-tight text-slate-900">
-            Um espaço seguro para cuidar de si e florescer no seu tempo.
+            Um espaço livre e seguro para seu autocuidado e desenvolvimento, respeitando sua singularidade.
           </h1>
 
           <p class="mt-6 text-lg md:text-xl text-slate-700 max-w-2xl">
@@ -41,7 +41,7 @@ const whatsappLink =
           <div class="relative">
             <div class="absolute inset-0 -m-4 rounded-3xl bg-sky-200/60 blur-2xl"></div>
             <img
-              src="public/img/perfil_sun.jpeg"
+              src="img/perfil_sun.jpeg"
               alt="Psicóloga humanista"
               class="relative w-full max-w-md rounded-3xl shadow-2xl object-cover aspect-[4/5] border-4 border-white"
             />
@@ -72,16 +72,22 @@ const whatsappLink =
 
         <div class="grid gap-4">
           <div class="rounded-2xl bg-sky-50 p-6 shadow-sm border border-sky-100">
-            <h3 class="font-semibold text-lg text-sky-800 mb-2">Escuta acolhedora</h3>
-            <p class="text-slate-600">Um espaço de confiança para falar sobre suas dores, medos e desejos.</p>
+            <p class="text-slate-600">
+              Psicóloga clínica com ampla experiência no atendimento online, com Mestrado. Defendeu a dissertação
+              "Educação e Cultura: Um estudo sobre o processo de (Des)Educação dos indivíduos"
+            </p>
           </div>
           <div class="rounded-2xl bg-rose-50 p-6 shadow-sm border border-rose-100">
-            <h3 class="font-semibold text-lg text-rose-800 mb-2">Atendimento humanizado</h3>
-            <p class="text-slate-600">Cuidado centrado na pessoa, com respeito e autenticidade.</p>
+            <p class="text-slate-600">
+              Professora universitária e Orientadora de estágio clínico. Supervisão e orientação de trabalhos
+              acadêmicos e para profissionais iniciantes. Orientação de TCC e outros.
+            </p>
           </div>
           <div class="rounded-2xl bg-sky-50 p-6 shadow-sm border border-sky-100">
-            <h3 class="font-semibold text-lg text-sky-800 mb-2">Crescimento pessoal</h3>
-            <p class="text-slate-600">Mais clareza emocional, autoestima e autonomia para viver melhor.</p>
+            <p class="text-slate-600">
+              Conciliadora e Mediadora de conflitos do TJSP. Pacificação social através do fim dos litigios,
+              desenvolver a comunicação não violenta para estabelecer bons acordos em todas as áreas.
+            </p>
           </div>
         </div>
       </div>
@@ -100,24 +106,30 @@ const whatsappLink =
 
         <div class="grid md:grid-cols-3 gap-8">
           <div class="bg-white p-8 rounded-2xl shadow-sm border border-sky-100">
-            <h3 class="font-semibold text-xl mb-4 text-sky-700">Empatia</h3>
             <p class="text-slate-600">
-              Você será recebida com escuta atenta, sem julgamentos, em um espaço de confiança.
+              "Aceitar quem somos hoje é o primeiro passo para construir quem queremos ser amanhã."
             </p>
+            <h3 class="font-semibold text-xl mb-4 text-sky-700">
+              Carl Rogers
+            </h3>
           </div>
 
           <div class="bg-white p-8 rounded-2xl shadow-sm border border-rose-100">
-            <h3 class="font-semibold text-xl mb-4 text-rose-600">Autenticidade</h3>
             <p class="text-slate-600">
-              A terapia incentiva contato verdadeiro consigo mesma, com mais clareza sobre sentimentos e necessidades.
+              "Nada existe, a não ser o agora." "As pessoas mudam quando aceitam quem são."
             </p>
+            <h3 class="font-semibold text-xl mb-4 text-rose-600">
+              Fritz Perls
+            </h3>
           </div>
 
           <div class="bg-white p-8 rounded-2xl shadow-sm border border-sky-100">
-            <h3 class="font-semibold text-xl mb-4 text-sky-700">Crescimento</h3>
             <p class="text-slate-600">
-              O processo terapêutico fortalece recursos internos para viver com mais presença e sentido.
+              "Se a única ferramenta que você tem é um martelo, você tende a ver todo problema como um prego"
             </p>
+            <h3 class="font-semibold text-xl mb-4 text-sky-700">
+              Abraham Maslow
+            </h3>
           </div>
         </div>
       </div>
