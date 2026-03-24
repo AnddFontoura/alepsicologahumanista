@@ -41,7 +41,7 @@ const whatsappLink =
           <div class="relative">
             <div class="absolute inset-0 -m-4 rounded-3xl bg-sky-200/60 blur-2xl"></div>
             <img
-              src="img/perfil_sun.jpeg"
+              src="public/img/perfil_sun.jpeg"
               alt="Psicóloga humanista"
               class="relative w-full max-w-md rounded-3xl shadow-2xl object-cover aspect-[4/5] border-4 border-white"
             />
