@@ -18,7 +18,7 @@ const whatsappLink =
           </p>
 
           <h1 class="mt-6 text-4xl md:text-5xl font-bold leading-tight text-slate-900">
-            Um espaço livre e seguro para seu autocuidado e desenvolvimento, respeitando sua singularidade.
+            Um espaço livre e seguro para seu auto cuidado e desenvolvimento, respeitando sua singularidade.
           </h1>
 
           <p class="mt-6 text-lg md:text-xl text-slate-700 max-w-2xl">
@@ -41,7 +41,7 @@ const whatsappLink =
           <div class="relative">
             <div class="absolute inset-0 -m-4 rounded-3xl bg-sky-200/60 blur-2xl"></div>
             <img
-              src="public/img/perfil_sun.jpeg"
+              src="public/img/arvore_ale_redux.jpeg"
               alt="Psicóloga humanista"
               class="relative w-full max-w-md rounded-3xl shadow-2xl object-cover aspect-[4/5] border-4 border-white"
             />
@@ -116,7 +116,7 @@ const whatsappLink =
 
           <div class="bg-white p-8 rounded-2xl shadow-sm border border-rose-100">
             <p class="text-slate-600">
-              "Nada existe, a não ser o agora." "As pessoas mudam quando aceitam quem são."
+              "As pessoas mudam quando aceitam quem são."
             </p>
             <h3 class="font-semibold text-xl mb-4 text-rose-600">
               Fritz Perls
@@ -143,27 +143,35 @@ const whatsappLink =
           <p class="text-slate-600">
             Atuo com foco em demandas emocionais e relacionais, sempre respeitando o tempo e a singularidade de cada pessoa.
           </p>
+
+          <p class="text-slate-600 mt-3">
+            Após a pandemia me especializei no atendimento a doenças da família.
+          </p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div class="bg-sky-50 p-6 rounded-2xl shadow-sm border border-sky-100">
-            <h3 class="font-semibold text-lg mb-2 text-sky-800">Ansiedade</h3>
-            <p class="text-slate-600">Apoio para entender gatilhos, reduzir sofrimento e encontrar mais equilíbrio.</p>
+            <h3 class="font-semibold text-lg mb-2 text-sky-800">Violência Doméstica</h3>
+            <p class="text-slate-600 text-justify">
+              Acolhimento seguro, escuta sem julgamentos e apoio emocional, ajudando a vítima a
+              compreender a violência, fortalecer sua autonomia e reconstruir sua vida com segurança.
+            </p>
           </div>
 
           <div class="bg-rose-50 p-6 rounded-2xl shadow-sm border border-rose-100">
-            <h3 class="font-semibold text-lg mb-2 text-rose-800">Autoestima</h3>
-            <p class="text-slate-600">Fortalecimento da autoimagem e reconexão com o próprio valor.</p>
+            <h3 class="font-semibold text-lg mb-2 text-rose-800">Terapias familiares e de casal</h3>
+            <p class="text-slate-600 text-justify">
+              Promoção do diálogo saudável, compreensão mútua e resolução de conflitos, fortalecendo vínculos,
+              respeito e cooperação para relações mais equilibradas e harmoniosas.
+            </p>
           </div>
 
           <div class="bg-sky-50 p-6 rounded-2xl shadow-sm border border-sky-100">
-            <h3 class="font-semibold text-lg mb-2 text-sky-800">Relacionamentos</h3>
-            <p class="text-slate-600">Desenvolvimento de vínculos mais saudáveis, claros e afetivos.</p>
-          </div>
-
-          <div class="bg-rose-50 p-6 rounded-2xl shadow-sm border border-rose-100">
-            <h3 class="font-semibold text-lg mb-2 text-rose-800">Autoconhecimento</h3>
-            <p class="text-slate-600">Processo de escuta interna para viver de forma mais consciente e alinhada.</p>
+            <h3 class="font-semibold text-lg mb-2 text-sky-800">Relacionamentos abusivos</h3>
+            <p class="text-slate-600 text-justify">
+              Identificar sinais de abuso, fortalecer a autoestima e a autonomia emocional, oferecendo apoio
+              para romper ciclos nocivos e construir relações mais seguras e saudáveis.
+            </p>
           </div>
         </div>
       </div>
@@ -192,7 +200,9 @@ const whatsappLink =
 
     <!-- FOOTER -->
     <footer class="bg-sky-900 text-sky-100 py-8 text-center">
-      <p>© 2026 Psicologia Humanista • Todos os direitos reservados</p>
+      <p> CRP 06/86402 </p>
+      <p> ©2026 Alessandra Psicologia Humanista </p>
+      <p> Todos os direitos reservados </p>
     </footer>
   </div>
 </template>
