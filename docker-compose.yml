@@ -58,6 +58,7 @@ services:
           - intra_network
       depends_on:
           - app
+
 volumes:
   db_data:
 

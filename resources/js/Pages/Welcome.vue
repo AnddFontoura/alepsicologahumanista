@@ -18,7 +18,7 @@ const whatsappLink =
           </p>
 
           <h1 class="mt-6 text-4xl md:text-5xl font-bold leading-tight text-slate-900">
-            Um espaço livre e seguro para seu auto cuidado e desenvolvimento, respeitando sua singularidade.
+            Um espaço livre e seguro para seu autocuidado e desenvolvimento, respeitando sua singularidade.
           </h1>
 
           <p class="mt-6 text-lg md:text-xl text-slate-700 max-w-2xl">
@@ -74,18 +74,18 @@ const whatsappLink =
           <div class="rounded-2xl bg-sky-50 p-6 shadow-sm border border-sky-100">
             <p class="text-slate-600">
               Psicóloga clínica com ampla experiência no atendimento online, com Mestrado. Defendeu a dissertação
-              "Educação e Cultura: Um estudo sobre o processo de (Des)Educação dos indivíduos"
+              "Educação e Cultura: Um estudo sobre o processo de (de)formação cultural dos indivíduos"
             </p>
           </div>
           <div class="rounded-2xl bg-rose-50 p-6 shadow-sm border border-rose-100">
             <p class="text-slate-600">
-              Professora universitária e Orientadora de estágio clínico. Supervisão e orientação de trabalhos
+              Professora universitária e orientadora de estágio clínico. Supervisão e orientação de trabalhos
               acadêmicos e para profissionais iniciantes. Orientação de TCC e outros.
             </p>
           </div>
           <div class="rounded-2xl bg-sky-50 p-6 shadow-sm border border-sky-100">
             <p class="text-slate-600">
-              Conciliadora e Mediadora de conflitos do TJSP. Pacificação social através do fim dos litigios,
+              Conciliadora e Mediadora de conflitos do TJSP. Pacificação social através do fim dos litígios,
               desenvolver a comunicação não violenta para estabelecer bons acordos em todas as áreas.
             </p>
           </div>
@@ -145,7 +145,7 @@ const whatsappLink =
           </p>
 
           <p class="text-slate-600 mt-3">
-            Após a pandemia me especializei no atendimento a doenças da família.
+            Durante a pandemia me epecializei no atendimento a vítimas de violência e conflitos familiares
           </p>
         </div>
 
@@ -183,7 +183,7 @@ const whatsappLink =
         <h2 class="text-3xl font-bold mb-4">Contato</h2>
         <p class="text-slate-700 mb-8 text-lg">
           Se você sente que é hora de olhar com mais cuidado para si, entre em contato.
-          Será um prazer te acompanhar nesse processo.
+          Será um prazer acompanhá-lo
         </p>
 
         <div class="flex flex-col sm:flex-row justify-center gap-4">
