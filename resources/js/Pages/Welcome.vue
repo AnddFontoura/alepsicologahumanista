@@ -3,10 +3,21 @@ import { Head } from '@inertiajs/vue3'
 
 const whatsappLink =
     "https://wa.me/5519998845678?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta"
+
+const pageTitle =
+    "Alessandra Scapin | Psicóloga Humanista - Atendimento Online"
+const pageDescription =
+    "Psicóloga humanista (CRP 06/86402) com atendimento online. Terapia individual, de casal e familiar, apoio a vítimas de violência doméstica e relacionamentos abusivos. Autoconhecimento e equilíbrio emocional. Agende sua consulta pelo WhatsApp."
 </script>
 
 <template>
-  <Head title="Psicóloga Humanista" />
+  <Head :title="pageTitle">
+    <meta head-key="description" name="description" :content="pageDescription" />
+    <meta head-key="og:title" property="og:title" :content="pageTitle" />
+    <meta head-key="og:description" property="og:description" :content="pageDescription" />
+    <meta head-key="twitter:title" name="twitter:title" :content="pageTitle" />
+    <meta head-key="twitter:description" name="twitter:description" :content="pageDescription" />
+  </Head>
 
   <div class="bg-sky-50 text-slate-800">
     <!-- HERO -->
@@ -42,7 +53,10 @@ const whatsappLink =
             <div class="absolute inset-0 -m-4 rounded-3xl bg-sky-200/60 blur-2xl"></div>
             <img
               src="public/img/arvore_ale_redux.jpeg"
-              alt="Psicóloga humanista"
+              alt="Alessandra Scapin, psicóloga humanista, atendimento psicológico online"
+              width="448"
+              height="560"
+              loading="eager"
               class="relative w-full max-w-md rounded-3xl shadow-2xl object-cover aspect-[4/5] border-4 border-white"
             />
           </div>
